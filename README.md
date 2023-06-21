@@ -3,3 +3,6 @@
 ## Data Structures
 
 ## Algorithms
+
+* **Search**
+  * [Binary Search (бинарный поиск)](algorithms/search/binary-search)

@@ -5,4 +5,4 @@
 ## Algorithms
 
 * **Search**
-  * [Binary Search (бинарный поиск)](algorithms/search/binary-search)
+  * [Binary Search (Бинарный поиск)](algorithms/search/binary-search)

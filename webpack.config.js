@@ -12,7 +12,7 @@ module.exports = {
     },
     open: true,
     compress: true,
-    hot: 'only',
+    hot: true,
     port: 8080,
   },
   entry: {
@@ -28,8 +28,8 @@ module.exports = {
       template: path.resolve(__dirname, './src/template.html'), // шаблон
       filename: 'index.html', // название выходного файла
     }),
-    new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(), // применять изменения только при горячей перезагрузке
+    new CleanWebpackPlugin(),
   ],
   module: {
     rules: [

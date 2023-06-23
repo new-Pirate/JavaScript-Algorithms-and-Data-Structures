@@ -46,3 +46,4 @@
 
 * **Search**
   * [Binary Search (Бинарный поиск)](algorithms/search/binary-search)
+  *[Selection sort (Сортировка выбором)](algorithms/sort/selection-sort)

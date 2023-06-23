@@ -1,6 +1,18 @@
 # Learning algorithms and data structures in JavaScript
 
-## Time complexity (Время выполнения)
+## Data Structures
+### Таблица выполнения основных операций со структурами данных
+| Data Structure                | Чтение | Поиск | Вставка | Удаление |
+| :---------------------------- | :----- | :---- | :------ | :------- |
+| Array (Массив)                | O(1)   | O(n)  | O(n)    | O(n)     |
+| Linked Liset (Связный список) | O(n)   | O(n)  | O(1)    | O(1)     |
+
+## Data Structures list
+* [Array (Массив)](data-structures/array)
+* [Linked Liset (Связный список)](data-structures/linked-list)
+
+## Algorithms
+### Time complexity (Время выполнения)
 
 О-большое это сложность выполнения алгоритма. Оно определеяет время выполнения алгритма в худшем случае.
 
@@ -29,7 +41,6 @@
 
 
 ![Alt text](chart.png)
-## Data Structures list
 
 ## Algorithms list
 

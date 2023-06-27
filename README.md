@@ -46,4 +46,7 @@
 
 * **Search**
   * [Binary Search (Бинарный поиск)](algorithms/search/binary-search)
-  *[Selection sort (Сортировка выбором)](algorithms/sort/selection-sort)
+
+* **Sorting**
+  * [Selection sort (Сортировка выбором)](algorithms/sort/selection-sort)
+  * [Quicksort (Быстрая сортировка)](algorithms/sort/quicksort)

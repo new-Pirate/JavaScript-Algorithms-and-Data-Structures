@@ -6,10 +6,12 @@
 | :---------------------------- | :----- | :---- | :------ | :------- |
 | Array (Массив)                | O(1)   | O(n)  | O(n)    | O(n)     |
 | Linked Liset (Связный список) | O(n)   | O(n)  | O(1)    | O(1)     |
+| Hash-table (Хэш-таблица)      | -      | O(1)  | O(1)    | O(1)     |
 
 ## Data Structures list
 * [Array (Массив)](data-structures/array)
 * [Linked Liset (Связный список)](data-structures/linked-list)
+* [Hash-table (Хэш-таблица)](data-structures/hash-table)
 
 ## Algorithms
 ### Time complexity (Время выполнения)

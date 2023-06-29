@@ -8,12 +8,16 @@
 | Linked Liset (Связный список) | O(n)   | O(n)  | O(1)    | O(1)     |
 | Hash-table (Хэш-таблица)      | -      | O(1)  | O(1)    | O(1)     |
 | Graph (Граф)                  | -      | -     | -       | -        |
+| Queue (Очередь)               | O(n)   | O(n)  | 1       | 1        |
+| Stack (Стек)                  | O(n)   | O(n)  | 1       | 1        |
 
 ## Data Structures list
 * [Array (Массив)](data-structures/array)
 * [Linked Liset (Связный список)](data-structures/linked-list)
 * [Hash-table (Хэш-таблица)](data-structures/hash-table)
 * [Graph (Граф)](data-structures/graph)
+* [Queue (Очередь)](data-structures/queue)
+* [Stack (Стек)](data-structures/stack)
 
 ## Algorithms
 ### Time complexity (Время выполнения)
@@ -54,3 +58,6 @@
 * **Sorting**
   * [Selection sort (Сортировка выбором)](algorithms/sort/selection-sort)
   * [Quicksort (Быстрая сортировка)](algorithms/sort/quicksort)
+
+* **Graphs**
+  * [Breadth-first search (Поиск в ширину)](algorithms/graphs/breadth-first-search)

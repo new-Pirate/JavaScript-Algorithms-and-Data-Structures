@@ -7,11 +7,13 @@
 | Array (Массив)                | O(1)   | O(n)  | O(n)    | O(n)     |
 | Linked Liset (Связный список) | O(n)   | O(n)  | O(1)    | O(1)     |
 | Hash-table (Хэш-таблица)      | -      | O(1)  | O(1)    | O(1)     |
+| Graph (Граф)                  | -      | -     | -       | -        |
 
 ## Data Structures list
 * [Array (Массив)](data-structures/array)
 * [Linked Liset (Связный список)](data-structures/linked-list)
 * [Hash-table (Хэш-таблица)](data-structures/hash-table)
+* [Graph (Граф)](data-structures/graph)
 
 ## Algorithms
 ### Time complexity (Время выполнения)

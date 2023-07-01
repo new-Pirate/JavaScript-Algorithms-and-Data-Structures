@@ -10,7 +10,9 @@
 ![Alt text](Breadth-First-Search-Algorithm.gif)
 
 ## Сложность
-O(log(n))
+O(V+E)
+V - количество вершин(узлов)
+E - количество ребер
 
 Полезные ссылки:
 * [wiki](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B2_%D1%88%D0%B8%D1%80%D0%B8%D0%BD%D1%83)

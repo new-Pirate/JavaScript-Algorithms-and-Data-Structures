@@ -1,26 +1,32 @@
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const graphs = {
+  you: ['alice', 'bob', 'clarie'],
+  bob: ['anuj', 'peggy'],
+  alice: ['peggy'],
+  clarie: ['thom', 'jonny'],
+  anuj: [],
+  peggy: [],
+  thom: [],
+  jonny: [],
+};
 
-function binary_search(array, item) {
-  let low = 0; //нижняя граница
-  let high = array.length - 1; //верхняя граница
+function bfs(graph, start, end) { //start - начальная вершина(узел) //end - искомая вершина(узел)
+  let queue = []; //очередь которую надо проверить
+  let searched = []; //очередь из проверенных
+  queue.push(start); //добавляем стартовый элемент в очередь
 
-  while (low <= high) { //пока граница не сократится до одного элемента
-    let mid = Math.floor((low + high) / 2); //средний элемент
-    let guess = array[mid];
-
-    if (guess === item) { //если значение найдено
-      return mid;
-    }
-
-    if (guess > item) { //если значение больше искомого
-      high = mid - 1;
-    } else {  //если значение меньше искомого
-      low = mid + 1;
+  while (queue.length > 0) { //пока очередь не пуста
+    let element = queue.shift(); //удаляем первый элемент из очереди
+    if (!searched.includes(element)) {
+      if (element === end) { //если искомый элемент найден, то возвращаем true
+        return true;
+      } else {
+        searched.push(element); //помещаем элемент в уже проверенные
+        queue = queue.concat(graph[element]); //добавляем соседей в очередь
+      }
     }
   }
-
-  return null; //Значения не существует
+  return false; //если искомого элемента не обнаружено, то его нет
 }
 
-let result = binary_search(array, 8);
+let result = bfs(graphs, 'you', 'jonny');
 console.log(result);

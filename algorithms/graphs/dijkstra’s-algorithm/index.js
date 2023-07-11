@@ -41,10 +41,11 @@ function dijkstra(graph, start, end) {  //start - начальная верши�
 
   let shortestPath = []; //массив из вершин с кратчайшим путем
   let current = end;
-  while (current !== null) {
+  while (current !== null) { //крутимся по 
     shortestPath.unshift(current);
     current = previous[current];
   }
+
   return shortestPath;
 }
 

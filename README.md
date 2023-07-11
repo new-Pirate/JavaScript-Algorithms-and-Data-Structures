@@ -61,3 +61,4 @@
 
 * **Graphs**
   * [Breadth-first search (Поиск в ширину)](algorithms/graphs/breadth-first-search)
+  * [Dijkstra’s algorithm (Алгоритм Дейкстры)](algorithms/graphs/dijkstra’s-algorithm)
